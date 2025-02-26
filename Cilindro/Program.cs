@@ -14,7 +14,16 @@ namespace Cilindro
             Console.WriteLine("Insere o raio do cilindro;");
             string str2 = Console.ReadLine();
             double r = double.Parse(str2);
+
+            double v = Math.PI*Math.Pow( r,r)*a;
+
+            double S =2 * Math.PI*r*(r+a);
+
+            Console.WriteLine($"{v:f3}");
+            Console.WriteLine($"{S:f3}");
             
+
+
         }
     }
 }
