@@ -82,6 +82,11 @@ namespace ValoresEspeciais
             Console.WriteLine(dbi2);
             Console.WriteLine(dbn);
 
+            // segunda parte do exercicio 
+
+            Console.WriteLine(ui1+1);
+            
+
 
 
         }
