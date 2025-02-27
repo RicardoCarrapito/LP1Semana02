@@ -85,6 +85,12 @@ namespace ValoresEspeciais
             // segunda parte do exercicio 
 
             Console.WriteLine(ui1+1);
+
+            float over =2*float.MaxValue;
+            float over2=float.MaxValue+1;
+
+            Console.WriteLine(over);
+            Console.WriteLine(over2);
             
 
 
